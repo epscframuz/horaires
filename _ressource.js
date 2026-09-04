@@ -1,0 +1,54 @@
+﻿var listeChoixRessources = new Array ()
+var listeRessources      = new Array ()
+listeChoixRessources ["grClasse"] = "Choisir une classe";
+
+listeRessources [0] = new Ressource ("grClasse","Sélectionnez une classe","vide");
+listeRessources [1] = new Ressource ("grClasse","10VG/01.6103","c0000008");
+listeRessources [2] = new Ressource ("grClasse","10VG/02.6103","c0000030");
+listeRessources [3] = new Ressource ("grClasse","10VG/03.6103","c0000002");
+listeRessources [4] = new Ressource ("grClasse","10VG/04.6103","c0000033");
+listeRessources [5] = new Ressource ("grClasse","10VG/05.6103","c0000031");
+listeRessources [6] = new Ressource ("grClasse","10VP/01.6103","c0000034");
+listeRessources [7] = new Ressource ("grClasse","10VP/02.6103","c0000038");
+listeRessources [8] = new Ressource ("grClasse","10VP/03.6103","c0000029");
+listeRessources [9] = new Ressource ("grClasse","11VG/01.6103","c0000027");
+listeRessources [10] = new Ressource ("grClasse","11VG/02.6103","c0000004");
+listeRessources [11] = new Ressource ("grClasse","11VG/03.6103","c0000003");
+listeRessources [12] = new Ressource ("grClasse","11VG/05.6103","c0000021");
+listeRessources [13] = new Ressource ("grClasse","11VP/01.6103","c0000017");
+listeRessources [14] = new Ressource ("grClasse","11VP/02.6103","c0000028");
+listeRessources [15] = new Ressource ("grClasse","11VP/03.6103","c0000006");
+listeRessources [16] = new Ressource ("grClasse","12RAC1/01.6103","c0000026");
+listeRessources [17] = new Ressource ("grClasse","12RAC1/02.6103","c0000036");
+listeRessources [18] = new Ressource ("grClasse","7P/01.6101","c0000010");
+listeRessources [19] = new Ressource ("grClasse","7P/02.6101","c0000025");
+listeRessources [20] = new Ressource ("grClasse","7P/03.6101","c0000041");
+listeRessources [21] = new Ressource ("grClasse","7P/04.6101","c0000043");
+listeRessources [22] = new Ressource ("grClasse","7P/05.6101","c0000009");
+listeRessources [23] = new Ressource ("grClasse","7P/06.6101","c0000013");
+listeRessources [24] = new Ressource ("grClasse","7P/07.6101","c0000011");
+listeRessources [25] = new Ressource ("grClasse","7P/08.6101","c0000042");
+listeRessources [26] = new Ressource ("grClasse","8P/01.6101","c0000016");
+listeRessources [27] = new Ressource ("grClasse","8P/02.6101","c0000035");
+listeRessources [28] = new Ressource ("grClasse","8P/03.6101","c0000012");
+listeRessources [29] = new Ressource ("grClasse","8P/04.6101","c0000023");
+listeRessources [30] = new Ressource ("grClasse","8P/05.6101","c0000020");
+listeRessources [31] = new Ressource ("grClasse","8P/06.6101","c0000007");
+listeRessources [32] = new Ressource ("grClasse","8P/07.6101","c0000032");
+listeRessources [33] = new Ressource ("grClasse","9VG/01.6103","c0000039");
+listeRessources [34] = new Ressource ("grClasse","9VG/02.6103","c0000040");
+listeRessources [35] = new Ressource ("grClasse","9VG/03.6103","c0000015");
+listeRessources [36] = new Ressource ("grClasse","9VG/04.6103","c0000037");
+listeRessources [37] = new Ressource ("grClasse","9VG/05.6103","c0000018");
+listeRessources [38] = new Ressource ("grClasse","9VG/06.6103","c0000022");
+listeRessources [39] = new Ressource ("grClasse","9VP/01.6103","c0000014");
+listeRessources [40] = new Ressource ("grClasse","9VP/02.6103","c0000019");
+listeRessources [41] = new Ressource ("grClasse","9VP/03.6103","c0000044");
+listeRessources [42] = new Ressource ("grClasse","ACC/18.6101","c0000005");
+listeRessources [43] = new Ressource ("grClasse","ACC/20.6101","c0000024");
+
+function Ressource (aGenre, aLibelle, aCodage) {
+  this.genre   = aGenre;
+  this.libelle = aLibelle;
+  this.codage  = aCodage;
+}
